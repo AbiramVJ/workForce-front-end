@@ -49,7 +49,7 @@ function MobFooter() {
 
 function LarFooter() {
   return (
-    <div className="hidden sm:block bg-workforce-regal-blue m-2 mr-2 p-1 rounded-t-lg fixed bottom-0 w-full">
+    <div className="hidden sm:block bg-workforce-regal-blue m-2 mt-2 mr-2 p-1 rounded-t-lg w-full">
       <div className="flex justify-between p-1 m-2 h-20">
         <div className=" font-sans text-xl text-white">Download our App</div>
         <div className="flex flex-row-reverse h-40">

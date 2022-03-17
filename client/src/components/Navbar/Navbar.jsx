@@ -32,14 +32,14 @@ function LgNav() {
       </div>
       <div className="flex items-center gap-3">
         <div>
-          <button className=" bg-white border-2 border-white text-center font-black w-20 h-10 rounded-2xl hover:bg-slate-200">
-            SignIn
-          </button>
+        <button className=" inline-block px-6 py-2.5 bg-white text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-100 hover:shadow-lg hover:text-white focus:bg-blue-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:text-white focus:text-white active:shadow-lg transition duration-150 ease-in-out">
+        SignIn
+      </button>
         </div>
         <div>
-          <button className=" bg-white border-2 border-white text-center font-black w-20 h-10 rounded-2xl hover:bg-slate-200">
-            SignUp
-          </button>
+        <button className=" inline-block px-6 py-2.5 bg-white text-black font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-100 hover:shadow-lg hover:text-white focus:bg-blue-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:text-white focus:text-white active:shadow-lg transition duration-150 ease-in-out">
+        SignUp
+      </button>
         </div>
       </div>
       </div>
