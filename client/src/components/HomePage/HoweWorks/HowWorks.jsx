@@ -6,7 +6,7 @@ function HowWorks() {
       <div className="text-center font-serif text-2xl font-bold subpixel-antialiased">
         How it Works..?
       </div>
-      <div className="mt-5 p-1 justify-center mld-96">
+      <div className="mt-5 p-1 justify-center ml-96">
        
         <iframe
           width="560"
