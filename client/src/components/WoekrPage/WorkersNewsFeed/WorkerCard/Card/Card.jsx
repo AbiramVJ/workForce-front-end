@@ -5,7 +5,6 @@ import { GoLocation } from "react-icons/go";
 import { AiOutlinePhone } from "react-icons/ai";
 
 function Card(props) {
-  console.log(props.fullName);
   return (
     <div className="w-3/4 shadow-lg h-auto p-1 m-1 flex rounded-md">
       <div className="p-1">
@@ -23,11 +22,11 @@ function Card(props) {
       ,
         <div className="p-2 "> 
        
-          <div className="flex gap-24"><div className=" font-bold pl-1">V.Abiram</div><div className="text-center text-workforce-regal-blue  font-bold font-serif text-xl">
+          <div className="flex gap-24"><div className=" font-bold pl-1">{props.fullName}</div><div className="text-center text-workforce-regal-blue  font-bold font-serif text-xl">
           Software Engineer
         </div></div>
           <div className="pl-1 font-serif text-gray-700 text-sm">
-            software Engineer
+            {props.workCategory}
           </div>
           
           <div className="pl-1 flex">
@@ -75,7 +74,7 @@ function Card(props) {
           <div className="flex p-1 gap-5 w-auto">
             <div className=" text-sm p-1 flex gap-2">
               <AiOutlineMail className="flex justify-center mt-1" />
-              abiram586@gmail.com
+              {props.email}
             </div>
             <div className=" text-sm p-1 w-auto flex gap-2">
               <GoLocation className="flex justify-center mt-1" />
@@ -84,7 +83,7 @@ function Card(props) {
           </div>
           <div className=" text-sm p-1 flex gap-2">
             <AiOutlinePhone className="flex justify-center mt-1" />
-            +94779507217
+            {props.phoneNumber}
           </div>
           <div className=" text-sm p-1 flex gap-2 overflow-hidden">
             When Enterprises Migrate To The Cloud, They Still Have Workload

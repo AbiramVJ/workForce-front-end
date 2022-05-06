@@ -14,7 +14,7 @@ function WorkerCard() {
       age: "25",
     },
     {
-      fullName: "Vijayakumar Abiram",
+      fullName: "Arasalingam Jude",
       email: "abiram5862gmail.com",
       addrress: "arasady lane pointpedro jaffna",
       phoneNumber: "0779507217",
@@ -23,7 +23,7 @@ function WorkerCard() {
       age: "25",
     },
     {
-      fullName: "Vijayakumar Abiram",
+      fullName: "Sathiyapirapa Harishanger",
       email: "abiram5862gmail.com",
       addrress: "arasady lane pointpedro jaffna",
       phoneNumber: "0779507217",
@@ -36,7 +36,7 @@ function WorkerCard() {
       <div className="m-1 p-1">
       {
         worker.map((data,index)=>(
-          <Card data key={index}/>
+          <Card {...data} key={index}/>
         ))
       }
        
