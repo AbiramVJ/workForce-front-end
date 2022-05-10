@@ -11,6 +11,7 @@ import WorkerLayoutHoc from './HOC/WorkerLayoutHoc';
 // pages
 import HomePage from './pages/HomePage'
 import WorkerPage from './components/WoekrPage';
+import workerProfile from './components/workerProfile/workerProfile';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     
   <HomeLayoutHoc path="/home" exact component={HomePage}/>
   <WorkerLayoutHoc path="/workers" exact component={WorkerPage}/>
+  <WorkerLayoutHoc path="/workerprofile" exact component={workerProfile}/>
     </>
   );
 }

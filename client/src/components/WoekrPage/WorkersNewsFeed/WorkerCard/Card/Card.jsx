@@ -11,7 +11,7 @@ function Card(props) {
         <div className=" h-44 w-44 border-2 rounded-md">
           <img
             className="rounded-md"
-            src="https://scontent.fcmb9-1.fna.fbcdn.net/v/t39.30808-6/278195420_4974034832684433_5458752837284941230_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=uB24qrMLoh0AX8ZeOW1&_nc_ht=scontent.fcmb9-1.fna&oh=00_AT_orXBJecsUW7f4KLnYZourmQfMn-ZYm5DJTT2I4fO_kw&oe=6276A712"
+            src={props.ProfileUrl}
             alt="profile"
           ></img>
       
